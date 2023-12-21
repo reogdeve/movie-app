@@ -1,0 +1,92 @@
+.movies {
+    margin-bottom: 30px;
+
+    .search {
+        color: black;
+        display: flex;
+        justify-content: center;
+
+        input {
+            font-size: 14px;
+            width: 95%;
+            padding: 8px 0px 8px 10px;
+            border-radius: 8px;
+            border: 1px solid #ebebeb;
+            box-shadow: 0px 0px 16px 4px #e7e7e7;
+        }
+    }
+
+    .movie-title {
+        font-size: 20px;
+    }
+
+    .movie-list {
+        display: grid;
+        grid-template-columns: 48.5% 48.5%;
+        grid-gap: 12px;
+
+        .movie-list__card {
+            background-color: white;
+            border-radius: 8px;
+
+            .card-thumb {
+                border-radius: 8px 8px 0px 0px;
+                object-fit: cover;
+                width: 100%;
+                max-height: 300px;
+            }
+
+            .box {
+                padding: 0px 10px 10px 10px;
+
+                .card-title {
+                    font-size: 14px;
+                    color: #414141;
+                    justify-content: space-between;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .card-rate {
+                    font-size: 12px;
+                    border-radius: 100px;
+                    border-radius: 100px;
+                    color: #008812;
+                    display: flex;
+                    font-weight: 600;
+                    justify-content: center;
+                    align-items: center;
+                    width: 25px;
+                    height: 25px;
+                    background-color: #96f78f52;
+                }
+
+                .card-date {
+                    font-size: 14px;
+                    color: #9e9e9e;
+                }
+            }
+
+        }
+    }
+
+    .pagination {
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+        .nav {
+            background-color: #be177b;
+            padding: 8px 10px;
+            font-size: 14px;
+            border-radius: 8px;
+            color: #e7e7e7;
+            cursor: pointer;
+        }
+
+        .nav:hover {
+            background-color: #be177b9f;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.circle-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    text-align: center;
+}
+
+.circle-card img {
+    width: 78px;
+    border-radius: 50px;
+}
+
+.circle-card small {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: #770000;
+}
+
+.circle-card-title {
+    color: #000;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
